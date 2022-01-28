@@ -1,8 +1,10 @@
 import subprocess, shlex, sys
 
-import Damsh as eje_linea
-import iteractivo as a
-import lectura_fichero as b
+import Damsh
+import iteractivo as i
+import lectura_fichero
 
 """Ejecutar el main"""
-
+if __name__ == "__main__":
+    if(len(sys.argv) == 1):
+        i.ejecutando_modo_iteractivo()

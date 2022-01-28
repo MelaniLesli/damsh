@@ -1,5 +1,5 @@
 import shlex, subprocess, sys
-from Damsh as lector_fich
+import Damsh as lector_fich
 
 def lectura():
     
