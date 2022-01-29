@@ -2,15 +2,19 @@ import subprocess, shlex, sys
 
 import Damsh
 import iteractivo as i
-import lectura_fichero
+import lectura_fichero as lc
 def vacio():
-    while True:
-        linea = input('damsh')
-
-
+    if len(sys.argv) == 1:
+        i.ejecutando_modo_iteractivo()
+        return
+    elif len(sys.argv) == 2:
+        lc.lectura()
+        return
 """Ejecutar el main"""
 if __name__ == "__main__":
-    if len(sys.argv) == 0:
-        vacio()
-    elif len(sys.argv) ==1:
-        i.ejecutando_modo_iteractivo()
+    vacio()
+#    if len(sys.argv) == 1:
+#        i.ejecutando_modo_iteractivo()
+#       return
+#    elif len(sys.argv) ==1:
+#      i.ejecutando_modo_iteractivo()
