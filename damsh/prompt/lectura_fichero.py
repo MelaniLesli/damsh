@@ -1,6 +1,3 @@
-import shlex
-import subprocess
-import sys
 import Damsh as d
 
 def lectura(fichero):

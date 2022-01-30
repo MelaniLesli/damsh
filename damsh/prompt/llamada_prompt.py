@@ -1,7 +1,5 @@
 """Inicio"""
-import subprocess, shlex
 import sys
-
 from interactivo import ejecutando_modo_interactivo
 from lectura_fichero import lectura
 from help import show_help

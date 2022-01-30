@@ -1,4 +1,3 @@
-import subprocess, shlex
 import Damsh as x
 
 def ejecutando_modo_interactivo():

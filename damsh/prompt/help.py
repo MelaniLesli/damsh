@@ -1,5 +1,4 @@
 """Módulo que contiene la guia de nuestro programa """
-
 intro = 'damsh - The Dam shell'
 a = 'damsh'
 b = 'damsh -h'
