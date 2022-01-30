@@ -3,8 +3,8 @@ import subprocess
 import sys
 import Damsh as d
 
-def lectura():
-    with open(sys.argv[1]) as file:
+def lectura(fichero):
+    with open(fichero) as file:
         for line in file:
-            d.ejecutar_linea_fich(line)
+            d.ejecutar_linea(line)
 
